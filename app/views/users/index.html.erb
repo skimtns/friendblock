@@ -1,0 +1,5 @@
+<%= button_to "log out", destroy_user_session_path, method: :delete %>
+<h1><%= current_user.first_name %> user</h1>
+
+<%= link_to 'Add User', new_user_path %>
+<h3> All users </h3>
