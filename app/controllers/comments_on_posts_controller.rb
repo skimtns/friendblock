@@ -1,0 +1,2 @@
+class CommentsOnPostsController < ApplicationController
+end
